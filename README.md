@@ -62,6 +62,16 @@
     python main.py
    ```
 ---
+## Запуск с Docker
+1. Убедитесь, что у вас установлен `Docker` и `Docker Compose`.
+
+2. Соберите и запустите контейнер:
+
+   ```bash
+   docker-compose up --build
+   ```
+
+---
 
 ## Использование
 

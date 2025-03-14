@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: ./
+    container_name: bot
+    volumes:
+      - ./sites.db:/app/sites.db
+    restart: unless-stopped
